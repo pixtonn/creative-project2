@@ -1,7 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.centered {
+    text-align: center;
+}
+
 .cooking {
     margin: 5%;
     background-color: azure;
     font-size: large;
+}
+
+.failedSearch {
+    font-size: x-large;
+    margin: 5%;
 }
 
 .footer {
@@ -61,8 +76,69 @@
 }
 
 .pokemon {
-    height: 195%;
+    height: 200%;
     background-color: rgb(250, 245, 250);
+}
+
+.pokemonAbility {
+    list-style-type: none;
+}
+
+.pokemonImage {
+    width: calc(20% + 50px);
+    margin-left: calc(40% - 25px);
+}
+
+#pokemonInput {
+    margin: 5%;
+    width: calc(25% + 50px);
+}
+
+.pokemonMove {
+    list-style-type: circle;
+    margin: 2%;
+}
+
+.pokemonMoves {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pokemonName {
+    text-align: center;
+    font-size: xx-large;
+    width: 100%;
+    height: 10%;
+
+}
+
+#pokemonSearch {
+    margin: 0 5% 5% 5%;
+    width: calc(10% + 50px);
+    height: 7%;
+    font-size: large;
+}
+
+.pokemonStat {
+    margin: 5%;
+}
+
+.pokemonStats {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#pokemonResult {
+    width: calc(100vw - 10%);
+    margin: 5%;
+    border: 5px solid black;
+    padding: 5%;
+}
+
+.pokemonType {
+    list-style-type: none;
 }
 
 .redText {
@@ -74,6 +150,11 @@
     width: 100%;
     background-color: aliceblue;
     padding: 0px;
+}
+
+.searchLabel {
+    margin: 5% 0 5% 5%;
+    font-size: xx-large;
 }
 
 .sectionImage {
@@ -88,4 +169,12 @@
     justify-content: space-between;
     padding: 10px;
     background-color: whitesmoke;
+}
+
+.typesDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: calc(20% + 50px);
+    margin-left: 10%;
 }
